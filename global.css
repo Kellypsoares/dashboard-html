@@ -16,4 +16,22 @@ html, body {
   width: 280px;
 }
 
+.sidebar .menu {
+  margin: 25px 0 25px 0;
+}
 
+.sidebar .menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+.sidebar .menu ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar .menu ul li a:hover {
+  background-color: white;
+  color: #3f51b5;
+}
