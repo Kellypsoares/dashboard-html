@@ -1,6 +1,7 @@
 html, body {
   margin: 0; 
   padding: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 .wrapper { 
@@ -14,3 +15,5 @@ html, body {
   color: white;
   width: 280px;
 }
+
+
