@@ -1,0 +1,36 @@
+.content {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  padding: 15px;
+}
+
+.content .left {
+  flex: 2;
+  padding-right: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.content .right {
+  flex: 1;
+}
+
+.content .card {
+  box-shadow: 0 0 3px #00000044;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.content .card-col-2 {
+  width: 45%;
+
+
+}
+
+.content .card h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 300;
+}
