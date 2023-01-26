@@ -16,6 +16,7 @@ html, body {
   width: 280px;
 }
 
+
 .sidebar .menu {
   margin: 25px 0 25px 0;
 }
@@ -25,10 +26,17 @@ html, body {
   padding: 0;
 }
 
+.sidebar .menu ul li {
+  width: 95%;
+}
 
 .sidebar .menu ul li a {
   color: white;
   text-decoration: none;
+  display: block;
+  padding: 10px 10px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .sidebar .menu ul li a:hover {
